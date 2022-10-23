@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.0)
 project(useSophus)
 
-# 为使用 sophus，需要使用find_package命令找到它
 find_package(Sophus REQUIRED)
+find_package(Eigen3 3.3 REQUIRED NO_MODULE)
+find_package(fmt REQUIRED)
 
-# Eigen
-include_directories("/usr/include/eigen3")
 add_executable(useSophus useSophus.cpp)
 target_link_libraries(useSophus Sophus::Sophus)
+target_link_libraries(useSophus Eigen3::Eigen)
 
-add_subdirectory(example)
+# add_subdirectory(example)

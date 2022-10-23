@@ -1,13 +1,10 @@
-cmake_minimum_required( VERSION 2.8 )
+cmake_minimum_required( VERSION 3.0 )
 project( visualizeGeometry )
 
 set(CMAKE_CXX_FLAGS "-std=c++11")
 
-# 添加Eigen头文件
-include_directories( "/usr/include/eigen3" )
-
-# 添加Pangolin依赖
 find_package( Pangolin )
+find_package(Eigen3 3.3 REQUIRED MO_MODULE)
 include_directories( ${Pangolin_INCLUDE_DIRS} )
 
 add_executable( visualizeGeometry visualizeGeometry.cpp )
