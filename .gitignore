@@ -37,6 +37,8 @@
 *.tar.gz
 *.depth
 
+# IDE
 *cmake-build-*
 *.idea
 **build**
+*.swp
