@@ -31,6 +31,12 @@
 *.out
 *.app
 
+# Data
+*.png
+*.zip
+*.tar.gz
+*.depth
+
 *cmake-build-*
 *.idea
 **build**
