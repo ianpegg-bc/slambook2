@@ -1,0 +1,6 @@
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/rebuild_cache.dir
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/useHello.dir
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/edit_cache.dir
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/hello_shared.dir
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/hello.dir
+/home/ian.pegg/projects/slambook2/2-hello-slam/CMakeFiles/helloSLAM.dir

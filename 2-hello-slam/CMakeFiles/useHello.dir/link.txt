@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/useHello.dir/useHello.cpp.o  -o useHello  -Wl,-rpath,/home/ian.pegg/projects/slambook2/2-hello-slam libhello_shared.so 
